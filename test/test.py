@@ -4,8 +4,6 @@
 import cocotb
 from cocotb.clock import Clock
 from cocotb.triggers import ClockCycles, RisingEdge
-from cocotb.binary import BinaryValue
-
 @cocotb.test()
 async def test_coffee_classifier(dut):
     dut._log.info("Iniciando Test del Coffee Chip")
